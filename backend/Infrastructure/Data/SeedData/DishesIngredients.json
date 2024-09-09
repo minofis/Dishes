@@ -1,0 +1,170 @@
+[
+    {
+        "DishId": 1,
+        "IngredientId": 1
+    },
+    {
+        "DishId": 1,
+        "IngredientId": 2
+    },
+    {
+        "DishId": 1,
+        "IngredientId": 3
+    },
+    {
+        "DishId": 1,
+        "IngredientId": 4
+    },
+    {
+        "DishId": 1,
+        "IngredientId": 5
+    },
+    {
+        "DishId": 1,
+        "IngredientId": 6
+    },
+    {
+        "DishId": 1,
+        "IngredientId": 7
+    },
+    {
+        "DishId": 1,
+        "IngredientId": 8
+    },
+    {
+        "DishId": 1,
+        "IngredientId": 9
+    },
+    {
+        "DishId": 1,
+        "IngredientId": 10
+    },
+    {
+        "DishId": 2,
+        "IngredientId": 1
+    },
+    {
+        "DishId": 2,
+        "IngredientId": 10
+    },
+    {
+        "DishId": 2,
+        "IngredientId": 13
+    },
+    {
+        "DishId": 2,
+        "IngredientId": 36
+    },
+    {
+        "DishId": 2,
+        "IngredientId": 5
+    },
+    {
+        "DishId": 2,
+        "IngredientId": 37
+    },
+    {
+        "DishId": 3,
+        "IngredientId": 34
+    },
+    {
+        "DishId": 3,
+        "IngredientId": 35
+    },
+    {
+        "DishId": 3,
+        "IngredientId": 30
+    },
+    {
+        "DishId": 3,
+        "IngredientId": 27
+    },
+    {
+        "DishId": 3,
+        "IngredientId": 13
+    },
+    {
+        "DishId": 4,
+        "IngredientId": 31
+    },
+    {
+        "DishId": 4,
+        "IngredientId": 15
+    },
+    {
+        "DishId": 4,
+        "IngredientId": 10
+    },
+    {
+        "DishId": 4,
+        "IngredientId": 1
+    },
+    {
+        "DishId": 4,
+        "IngredientId": 32
+    },
+    {
+        "DishId": 4,
+        "IngredientId": 33
+    },
+    {
+        "DishId": 5,
+        "IngredientId": 17
+    },
+    {
+        "DishId": 5,
+        "IngredientId": 18
+    },
+    {
+        "DishId": 5,
+        "IngredientId": 19
+    },
+    {
+        "DishId": 5,
+        "IngredientId": 20
+    },
+    {
+        "DishId": 5,
+        "IngredientId": 10
+    },
+    {
+        "DishId": 5,
+        "IngredientId": 15
+    },
+    {
+        "DishId": 5,
+        "IngredientId": 21
+    },
+    {
+        "DishId": 6,
+        "IngredientId": 15
+    },
+    {
+        "DishId": 6,
+        "IngredientId": 39
+    },
+    {
+        "DishId": 6,
+        "IngredientId": 12
+    },
+    {
+        "DishId": 6,
+        "IngredientId": 13
+    },
+    {
+        "DishId": 6,
+        "IngredientId": 10
+    },
+    {
+        "DishId": 6,
+        "IngredientId": 14
+    },
+    {
+        "DishId": 6,
+        "IngredientId": 16
+    },
+    {
+        "DishId": 6,
+        "IngredientId": 5
+    }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "Id": 1,
+    "Name": "Rice with vegetables and meat",
+    "Description": "Description",
+    "Rating": "5",
+    "Recipe": "Recipe",
+    "DishCategoryId": 1,
+    "DishSubcategoryId": 2
+  },
+  {
+    "Id": 2,
+    "Name": "Julienne",
+    "Description": "Description",
+    "Rating": "5",
+    "Recipe": "Recipe",
+    "DishCategoryId": 4,
+    "DishSubcategoryId": 8
+  },
+  {
+    "Id": 3,
+    "Name": "Dumplings with cheese",
+    "Description": "Description",
+    "Rating": "4",
+    "Recipe": "Recipe",
+    "DishCategoryId": 5,
+    "DishSubcategoryId": 8
+  },
+  {
+    "Id": 4,
+    "Name": "Salad with Tar-Tar sauce",
+    "Description": "Description",
+    "Rating": "3",
+    "Recipe": "Recipe",
+    "DishCategoryId": 2,
+    "DishSubcategoryId": 7
+  },
+  {
+    "Id": 5,
+    "Name": "Avocado toasts",
+    "Description": "Description",
+    "Rating": "2",
+    "Recipe": "Recipe",
+    "DishCategoryId": 2,
+    "DishSubcategoryId": 5
+  },
+  {
+    "Id": 6,
+    "Name": "Burger with breaded chicken fillet",
+    "Description": "Description",
+    "Rating": "1",
+    "Recipe": "Recipe",
+    "DishCategoryId": 3,
+    "DishSubcategoryId": 4
+  }
+]

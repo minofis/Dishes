@@ -1,0 +1,15 @@
+.dishes__list{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.dish__item{
+    width: 330px;
+    height: 280px;
+    padding: 10px;
+    background-color: rgb(206, 227, 250);
+    border-radius: 5px;
+}
