@@ -12,8 +12,8 @@ namespace Infrastructure.Data.DishSearchContext
             _filterStrategy = filterStrategy;
         }
 
-        public List<Dish> ExecuteSearch(List<Dish> dishes, string category, string subcategory, string ingredient){
-            return _filterStrategy.Search(dishes, category, subcategory, ingredient);
+        public List<Dish> ExecuteSearch(List<Dish> dishes, IFilterDataDto filterData){
+            return _filterStrategy.Search(dishes, filterData);
         }
     }
 }

@@ -5,20 +5,20 @@ namespace Infrastructure.Data.Strategies
 {
     public class DishSearchByFilterStrategy : IDishSearchByFilterStrategy
     {
-        public List<Dish> Search(List<Dish> dishes, string category, string subcategory, string ingredient)
+        public List<Dish> Search(List<Dish> dishes, IFilterDataDto filterData)
         {
             var query = dishes.AsQueryable();
-            if (!string.IsNullOrEmpty(category))
+            if (!string.IsNullOrEmpty(filterData.Category))
             {
-                query = query.Where(d => d.DishCategory.Name == category);     
+                query = query.Where(d => d.DishCategory.Name == filterData.Category); 
             }
-            if (!string.IsNullOrEmpty(subcategory))
+            if (!string.IsNullOrEmpty(filterData.Subcategory))
             {
-                query = query.Where(d => d.DishSubcategory.Name == subcategory);
+                query = query.Where(d => d.DishSubcategory.Name == filterData.Subcategory);
             }
-            if (!string.IsNullOrEmpty(ingredient))
+            if (!string.IsNullOrEmpty(filterData.Ingredient))
             {
-                query = query.Where(d => d.Ingredients.Any(i => i.Name == ingredient));
+                query = query.Where(d => d.Ingredients.Any(i => i.Name == filterData.Ingredient));
             }
             var result = query.ToList();
             

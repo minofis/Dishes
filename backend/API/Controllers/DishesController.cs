@@ -46,9 +46,11 @@ namespace API.Controllers
 
             var dishes = await _repo.GetAllDishesAsync();
 
+            var filterData = new FilterDataDto(category, subcategory, ingredient);
+
             var strContext = new DishSearchContext(new DishSearchByFilterStrategy());
 
-            var filteredDishes = strContext.ExecuteSearch(dishes, category, subcategory, ingredient);
+            var filteredDishes = strContext.ExecuteSearch(dishes, filterData);
 
             var dishDtos = _mapper.Map<List<DishToReturnDto>>(filteredDishes);
 

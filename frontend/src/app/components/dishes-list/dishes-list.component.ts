@@ -36,12 +36,10 @@ export class DishesListComponent implements OnInit{
   }
 
   public addFilter() : void{
-    console.log(this.myForm.value.category);
 
     var filterData = new FilterData(this.myForm.value.category ?? '', this.myForm.value.subcategory ?? '', this.myForm.value.ingredient ?? '');
 
     this.dishes$ = this.dishesService.getDishesByFilter(filterData);
-      console.log(this.myForm.value);
   }
 
   public resetFilterByCategory() : void{
