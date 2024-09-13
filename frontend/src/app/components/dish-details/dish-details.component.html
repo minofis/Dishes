@@ -1,0 +1,12 @@
+<img class="dish__img" src="{{dish.pictureUrl}}" alt="">
+<div>
+    <div class="dish__value">{{dish.name}}</div>
+    <div class="dish__value">{{dish.description}}</div>
+    <div class="dish__value"><span>Category: </span>{{dish.dishCategory}}</div>
+    <div class="dish__value"><span>Subcategory: </span>{{dish.dishSubcategory}}</div>
+    <div class="dish__value"><span>Rating: </span>{{dish.rating}}</div>
+    <div class="dish__value"><span>ingredients:</span></div>
+    <span class="dish__value" *ngFor="let ingredient of dish.ingredients; let isLast = last">
+        {{ingredient.name}}<span *ngIf="!isLast">, </span><span *ngIf="isLast">.</span>
+    </span>
+</div>

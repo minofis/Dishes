@@ -6,8 +6,8 @@ namespace Core.Entities
     {
         public string Name { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
+        public string PictureUrl { get; set; } = string.Empty;
         public string Rating { get; set; } = string.Empty;
-        public string Recipe { get; set; } = string.Empty;
         public List<Ingredient> Ingredients { get; set; } = new List<Ingredient>();
         public DishCategory DishCategory { get; set; }
         public int DishCategoryId { get; set; }

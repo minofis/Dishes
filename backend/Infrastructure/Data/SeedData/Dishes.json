@@ -2,54 +2,54 @@
   {
     "Id": 1,
     "Name": "Rice with vegetables and meat",
-    "Description": "Description",
+    "Description": "A dish that combines juicy pieces of meat, aromatic vegetables and tender rice.",
+    "PictureUrl": "img/dishes/Rice_with_vegetables_and_meat.jpeg",
     "Rating": "5",
-    "Recipe": "Recipe",
     "DishCategoryId": 1,
     "DishSubcategoryId": 2
   },
   {
     "Id": 2,
     "Name": "Julienne",
-    "Description": "Description",
+    "Description": "A dish of mushrooms and meat baked in cream under a cheese crust.",
+    "PictureUrl": "img/dishes/Julienne.jpg",
     "Rating": "5",
-    "Recipe": "Recipe",
     "DishCategoryId": 4,
     "DishSubcategoryId": 8
   },
   {
     "Id": 3,
     "Name": "Dumplings with cheese",
-    "Description": "Description",
+    "Description": "A dish in which cheese is added to meat-filled dumplings, giving them a creamy flavor.",
+    "PictureUrl": "img/dishes/Dumplings_with_cheese.jpg",
     "Rating": "4",
-    "Recipe": "Recipe",
     "DishCategoryId": 5,
     "DishSubcategoryId": 8
   },
   {
     "Id": 4,
     "Name": "Salad with Tar-Tar sauce",
-    "Description": "Description",
+    "Description": "A dish in which tartar sauce adds rich flavor thanks to its creamy texture.",
+    "PictureUrl": "img/dishes/Salad_with_Tar-Tar_sauce.jpg",
     "Rating": "3",
-    "Recipe": "Recipe",
     "DishCategoryId": 2,
     "DishSubcategoryId": 7
   },
   {
     "Id": 5,
     "Name": "Avocado toasts",
-    "Description": "Description",
+    "Description": "A dish that combines the creamy texture of avocado and crispy bread.",
+    "PictureUrl": "img/dishes/Avocado_toasts.jpg",
     "Rating": "2",
-    "Recipe": "Recipe",
     "DishCategoryId": 2,
     "DishSubcategoryId": 5
   },
   {
     "Id": 6,
     "Name": "Burger with breaded chicken fillet",
-    "Description": "Description",
+    "Description": "A dish in which crispy breaded chicken fillet becomes the basis of this delicious burger.",
+    "PictureUrl": "img/dishes/Burger_with_breaded_chicken_fillet.jpg",
     "Rating": "1",
-    "Recipe": "Recipe",
     "DishCategoryId": 3,
     "DishSubcategoryId": 4
   }

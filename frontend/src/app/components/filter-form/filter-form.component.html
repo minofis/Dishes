@@ -1,0 +1,30 @@
+<div class="form">
+    <div class="form__name">Filters:</div>
+    <form [formGroup]="myForm">
+        <div class="form__item">
+            <label class="form__title" for="category">Select category:</label>
+            <select id="category" *ngIf="categories$ | async as categories" formControlName="category">
+                <option value=""></option>
+                <option *ngFor="let category of categories" value="{{category.name}}">{{category.name}}</option>
+            </select>
+        </div>
+        <div class="form__item">
+            <label class="form__title" for="subcategory">Select subcategory:</label>
+            <select id="subcategory" *ngIf="subcategories$ | async as subcategories" formControlName="subcategory">
+                <option value=""></option>
+                <option *ngFor="let subcategory of subcategories" value="{{subcategory.name}}">{{subcategory.name}}</option>
+            </select>
+        </div>
+        <div class="form__item">
+            <label class="form__title" for="ingredient">Select ingredient:</label>
+            <select id="ingredient" *ngIf="ingredients$ | async as ingredients" formControlName="ingredient">
+                <option value=""></option>
+                <option *ngFor="let ingredient of ingredients" value="{{ingredient.name}}">{{ingredient.name}}</option>
+            </select>
+        </div>
+        <div class="form__buttons">
+            <button (click)="addFilter()">Apply</button>
+            <button (click)="resetFilter()" type="reset">Reset</button>
+        </div>
+    </form>
+</div>

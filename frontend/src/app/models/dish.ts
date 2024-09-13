@@ -4,8 +4,8 @@ export interface IDish {
     id: number
     name: string
     description: string
+    pictureUrl: string
     rating: string
-    recipe: string
     dishCategory: string
     dishSubcategory: string
     ingredients: IIngredient[]

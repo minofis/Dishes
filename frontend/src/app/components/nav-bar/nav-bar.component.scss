@@ -1,17 +1,32 @@
-.fa-cutlery{
-    margin-right: 10px;
-    color: black;
-}
-
-.brand-name{
-    font-weight: 900;
-    font-size: 25px;
-}
-
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    background-color: #fff;
-    border-bottom: solid 1px #000;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #cce3f9;
+    color: #fff;
 }
+
+.header a{
+    color: #4f4e4e;
+    font-weight: 700;
+    background-color: rgb(230, 241, 250);
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.header__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 900;
+    font-size: 29px;
+}
+
+.header__logo img{
+    background-color: rgb(230, 241, 250);
+    width: 97px;
+    margin-bottom: 3px;
+}
+

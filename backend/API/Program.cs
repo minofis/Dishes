@@ -42,6 +42,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("AllowAll");
+app.UseStaticFiles();
 app.MapControllers();
 app.UseHttpsRedirection();
 app.Run();

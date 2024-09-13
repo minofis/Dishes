@@ -1,7 +1,7 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { IDish } from '../models/dish';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { IIngredient } from '../models/ingredient';
 import { ICategory } from '../models/category';
 import { ISubcategory } from '../models/subcategory';
@@ -11,11 +11,22 @@ import { FilterData } from '../models/filterData';
 export class DishesService {
 
   constructor(private _httpClient: HttpClient) {}
-
+  
   baseServerUrl : string = "http://localhost:5147/api/dishes/";
+
+  private filterData = new BehaviorSubject<FilterData>(new FilterData('', '', ''));
+  currentFilterData$ = this.filterData.asObservable();
+
+  public updateFilter(newFilter: FilterData){
+    this.filterData.next(newFilter);
+  }
 
    public getDishes(): Observable<IDish[]>{
     return this._httpClient.get<IDish[]>(this.baseServerUrl);
+   }
+
+   public getDishById(id: string): Observable<IDish>{
+    return this._httpClient.get<IDish>(this.baseServerUrl + id);
    }
 
    public getDishesByFilter(filterData : FilterData): Observable<IDish[]>{

@@ -11,7 +11,8 @@ namespace API.Helpers
             CreateMap<Dish, DishToReturnDto>()
                 .ForMember(d => d.DishSubcategory, o => o.MapFrom(s => s.DishSubcategory.Name))
                 .ForMember(d => d.DishCategory, o => o.MapFrom(s => s.DishCategory.Name))
-                .ForMember(d => d.Ingredients, o => o.MapFrom(s => s.Ingredients));
+                .ForMember(d => d.Ingredients, o => o.MapFrom(s => s.Ingredients))
+                .ForMember(d => d.PictureUrl, o => o.MapFrom<DishUrlResolver>());
 
             CreateMap<Ingredient, IngredientToReturntDto>()
                 .ForMember(d => d.Name, o => o.MapFrom(s => s.Name));

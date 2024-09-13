@@ -43,11 +43,11 @@ namespace Infrastructure.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Rating")
+                    b.Property<string>("PictureUrl")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Recipe")
+                    b.Property<string>("Rating")
                         .IsRequired()
                         .HasColumnType("text");
 

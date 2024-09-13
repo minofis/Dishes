@@ -3,4 +3,6 @@ bin
 obj
 data
 .vscode
+wwwroot
 docker-compose.yml
+logo.png
